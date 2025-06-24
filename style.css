@@ -1,0 +1,138 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e3e3e3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 35px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Barra-superior {
+  text-align: left;
+  background-color: #6200ee;
+  color: white;
+  padding: 16px;
+  border-radius: 12px 12px 0 0;
+}
+
+.perfil {
+  text-align: left;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  margin-left: 5px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #666;
+}
+
+p {
+  color: #444;
+  margin: 20px 0;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.botao {
+  background-color: #6200ee;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #3700b3;
+}
+
+.editar {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.editar:hover {
+  background-color: #e68900;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.qualificacoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tag {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: #d0d0d0;
+}
+
+/* Select e botão */
+.seletor-qualificacoes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.seletor-qualificacoes select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 80%;
+  max-width: 250px;
+}

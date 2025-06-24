@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="Barra-superior">
+        <img src="C:\Users\20luc\Documents\teste css 2.0\teste css 2.0\arquivos-teste\Captura de tela 2025-04-24 131944.png" alt="Minha Foto" class="perfil">
+      </div>
+
+      <h1 id="nome">Seu Nome</h1>
+      <h2 id="profissao">Desenvolvedor Front-End</h2>
+      <p id="bio">
+        Apaixonado por tecnologia e inovação. Sempre buscando aprender mais e criar coisas incríveis.
+      </p>
+
+      <div class="botoes">
+        <a href="https://github.com/" target="_blank" class="botao">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" class="botao">LinkedIn</a>
+      </div>
+
+      <button class="editar" onclick="editarPerfil()">Editar Perfil</button>
+
+      <!-- Qualificações -->
+      <h3>Minhas Qualificações</h3>
+      <div class="qualificacoes" id="qualificacoes"></div>
+
+      <!-- Seletor de Qualificações -->
+      <div class="seletor-qualificacoes">
+        <select id="selecaoQualificacao">
+          <option value="" disabled selected>Escolha uma qualificação</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="Git">Git</option>
+          <option value="Trabalho em Equipe">Trabalho em Equipe</option>
+          <option value="Comunicação">Comunicação</option>
+          <option value="Resolução de Problemas">Resolução de Problemas</option>
+          <option value="Criatividade">Criatividade</option>
+        </select>
+        <button onclick="adicionarQualificacaoSelecionada()" class="botao">Adicionar Qualificação</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
